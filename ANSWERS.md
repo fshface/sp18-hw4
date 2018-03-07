@@ -18,4 +18,4 @@ For 'create' you have to specify all the parameters upfront, while with 'new' yo
 
 5. How did you like this homework in comparison with the previous homeworks?
 
-This homework was around the same as previous homeworks.
+This homework was around the same as previous homeworks. I like the option of having less or more guidance.

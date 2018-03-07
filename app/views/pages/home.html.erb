@@ -15,3 +15,7 @@
     <strong>Finished: <%= t.finished %></strong><br>
     <br>        
 <% end %>
+
+<%= link_to todos_new_path do %>
+  <%= content_tag :span, "SUBMIT A NEW TODO" %>
+<% end %>
