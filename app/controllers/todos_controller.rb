@@ -1,15 +1,13 @@
 class TodosController < ApplicationController
 	def new
-		@todo = Todo.new()
 	end
 
 	def create
-    	@todo = Todo.new(todo_params)
-    	@todo.save
+    	@todo = Todo.create(todo_params)
     	redirect_to root_path
-  	end
+  end
 
-  	def todo_params
-  		params.require(:todo).permit(:tasks, :finished)
-  	end
+	def todo_params
+		params.require(:todo).permit(:tasks, :finished)
+	end
 end
